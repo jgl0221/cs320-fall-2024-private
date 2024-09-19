@@ -6,4 +6,4 @@ let nth s i =
     let rec exponent s prime = 
       if s mod prime = 0 then 1 + exponent (s/prime) prime 
       else 0
-in exponent s prime
+    in exponent s prime
