@@ -1,7 +1,7 @@
 (library
- (name my_parser)
- (public_name my_parser)
- (libraries utils))
+  (name my_parser)
+  (modules par lex my_parser)
+  (libraries utils))
 (menhir (modules par))
 (ocamllex lex)
 
